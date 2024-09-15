@@ -1,0 +1,191 @@
+/* Navipalkin muotoilut */
+
+/* taustan väri */
+.navbar-custom {
+    background-color: #92B2A2;
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    ;
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #D5E7AF;
+}
+
+/* Pienellä näytöllä skaalautuvan navipalkin väri*/
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item .dropdown-menu a:hover {
+    color: white !important;
+    background: #D5E7AF !important;
+    cursor: pointer;
+}
+
+.nav-link.active {
+    color: black !important;
+}
+
+/* Navin ja bodyn välille tyhjää */
+
+body {
+    position: relative;
+    padding-top: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Etusivun muotoilut */
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    height: 70vh;
+    object-fit: cover;
+    margin: 0;
+}
+
+.carousel-caption {
+    color: #000;
+}
+
+.carousel-caption.white-text-1,
+.carousel-caption.white-text-3,
+.carousel-caption.white-text-4 {
+    color: white;
+}
+
+.carousel-item:nth-of-type(1) .carousel-caption,
+.carousel-item:nth-of-type(3) .carousel-caption,
+.carousel-item:nth-of-type(4) .carousel-caption {
+    color: white;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23373E3B' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23373E3B' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#Kotisivujenesittely h1 {
+    padding-top: 30px;
+}
+
+/* Liikuntaläksyt-sivun muotoilut */
+
+#Liikuntalaksyt-sisalto {
+    background-color: #C7DCD4;
+}
+
+#Otsikko {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rounded-custom {
+    border-radius: 30px;
+}
+
+.custom-card {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-inline-start: 30px;
+}
+
+.card-header {
+    color: #9FC0A2;
+    background: #fff;
+}
+
+.img-fluid-card {
+    height: 200px;
+}
+
+.container.cards {
+    min-height: 300px;
+}
+
+#Liikuntaläksykortit img {
+    padding-top: 5px;
+}
+
+/* Move-sivun muotoilut */
+
+#Move-sivu {
+    background-color: #fff;
+}
+
+#Move-johdanto h1 {
+    padding-top: 20px;
+}
+
+#move-kysymykset {
+    padding-top: 30px;
+}
+
+#move-kysymykset h2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#move-kysymykset h5 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #D7E3DF;
+}
+
+/* Liikuntaohjelma-sivun muotoilut */
+
+#päävalikko1 {
+    background-color: #fff;
+    height: 60px;
+}
+
+#alavalikko1a {
+    background-color: #B7D4C8;
+}
+
+#alavalikko1b {
+    background-color: #9FC0A2;
+}
+
+#alavalikko1c {
+    background-color: #D5E7AF;
+}
+
+
+#päävalikko2 {
+    background-color: #fff;
+    height: 60px;
+}
+
+#alavalikko2a {
+    background-color: #B7D4C8;
+}
+
+#alavalikko2b {
+    background-color: #9FC0A2;
+}
+
+#alavalikko2c {
+    background-color: #D5E7AF;
+}
+
+#liikuntapaikkojen-yhteystiedot {
+    padding-top: 30px;
+}
